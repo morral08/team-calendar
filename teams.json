@@ -1,0 +1,11 @@
+[
+  {"key": "knicks",       "name": "Knicks",            "sport": "basketball", "league": "nba",                       "id": "18",  "hours": 2.5},
+  {"key": "bristol-city", "name": "Bristol City",      "sport": "soccer",     "league": "eng.2",                     "id": "333", "hours": 2,
+   "cups": ["eng.fa", "eng.league_cup"]},
+  {"key": "malaga",       "name": "Málaga CF",         "sport": "soccer",     "league": "esp.1",                     "id": "99",  "hours": 2,
+   "cups": ["esp.2", "esp.copa_del_rey"]},
+  {"key": "ucla-football","name": "UCLA Football",     "sport": "football",   "league": "college-football",          "id": "26",  "hours": 3.5},
+  {"key": "ucla-mbb",     "name": "UCLA Men's Hoops",  "sport": "basketball", "league": "mens-college-basketball",   "id": "26",  "hours": 2},
+  {"key": "ucla-wbb",     "name": "UCLA Women's Hoops","sport": "basketball", "league": "womens-college-basketball", "id": "26",  "hours": 2},
+  {"key": "usc-wbb",      "name": "USC Women's Hoops", "sport": "basketball", "league": "womens-college-basketball", "id": "30",  "hours": 2}
+]
