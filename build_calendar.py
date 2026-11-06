@@ -161,6 +161,8 @@ def main():
                     events.append(to_vevent(team, ev, stamp))
                 except Exception as e:  # noqa: BLE001
                     print(f"  ! skipped event {ev.get('id')}: {e}", file=sys.stderr)
+        cutoff = datetime.now(timezone.utc) - timedelta(days=7)
+        events = [e for e in events if e[0] >= cutoff]
         print(f"{team['name']}: {len(events)} games")
         path = os.path.join(OUT, f"{team['key']}.ics")
         if events:
